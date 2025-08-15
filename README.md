@@ -18,7 +18,7 @@ File: `bank_churn_sql_eda_and_preprocessing.sql`
 - Null checks & quick EDA (churn rate by geography, gender, age group, products, activity).
 - Exported cleaned table to `data/processed/Customer-Churn-Processed.csv`.
 
-> **Note on leakage:** The `Complain` field had extremely high feature importance (~0.49 in RF) and acted like a proxy for churn. We **removed `Complain` (and similar text-like/target-proxy fields)** for modeling to avoid leakage and get a realistic performance estimate.
+> **Note on leakage:** The `Complain` field had extremely high feature importance (~0.49 in RF) and acted like a proxy for churn. We **removed `Complain` ** for modeling to avoid leakage and get a realistic performance estimate.
 
 ---
 
@@ -36,7 +36,7 @@ File: `Bank_Customer_Dashboards.pbix` (2 pages)
   - **Customer Age Distribution**
   - **Customer Count by Geography**
   - **Customer Gender Split**
-  - **Card Type Distribution & Average Credit Score** (combo)
+  - **Card Type Distribution & Average Credit Score** 
 - Slicers: Geography, Gender, Age Group, Card Type, Active Member
 - Built with **Power Query** transformations for neat dimension fields.
 
