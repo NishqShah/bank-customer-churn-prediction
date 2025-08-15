@@ -67,14 +67,13 @@ Notebook: `Bank_Customer_Churn_Prediction.ipynb`
 > Earlier near-99% accuracy was traced to **feature leakage** from `Complain`. After removing it, scores stabilized to realistic levels.
 
 ---
-
-## 🚀 Reproduce Locally
-```bash
-# 1) Environment
-pip install -r requirements.txt
-
-# 2) (Optional) Recreate SQL preprocessing in MySQL
-#    then export processed CSV to data/processed/
-
-# 3) Run the notebook
-jupyter notebook notebooks/Bank_Customer_Churn_Prediction.ipynb
+## Repository
+- Customer-Churn-Records.csv
+- Customer-Churn-Processed.csv
+- bank_churn_sql_eda_preprocessing.sql
+- Bank_Customer_Dashboards.pbix
+- Bank_Customer_Churn_Analysis.jpg
+- Bank_Customer_Insight_and_Performance.jpg
+- Bank_Customer_Churn_Prediction.ipynb
+- bank_churn.joblib
+---
