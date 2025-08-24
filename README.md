@@ -41,8 +41,9 @@ File: `Bank_Customer_Dashboards.pbix` (2 pages)
 - Built with **Power Query** transformations for neat dimension fields.
 
 _Screenshots_
+![Dashboard Title](images/Bank_Customer_Dashboards_Title.jpg)
 ![Churn Analysis](images/Bank_Customer_Churn_Analysis.jpg)
-![Customer Insights](images/Bank_Customer_Insight_and_Performance.jpg)
+![Customer Insights](images/Bank_Customer_Insights_and_Performance.jpg)
 
 ---
 
