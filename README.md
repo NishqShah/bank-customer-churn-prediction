@@ -73,7 +73,8 @@ Notebook: `Bank_Customer_Churn_Prediction.ipynb`
 - Customer-Churn-Processed.csv
 - bank_churn_sql_eda_preprocessing.sql
 - Bank_Customer_Dashboards.pbix
-- Bank_Customer_Churn_Analysis.jpg
+- Bank_Customer_Dashboards_Title.jpg
+- Bank_Churn_Analysis.jpg
 - Bank_Customer_Insight_and_Performance.jpg
 - Bank_Customer_Churn_Prediction.ipynb
 - bank_churn.joblib
